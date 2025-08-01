@@ -1,0 +1,17 @@
+---
+title: Source code 
+author: Vittorio Zaccaria
+documentclass: article
+classoption:
+  - a4paper
+  - 12pt
+geometry:
+  - top=3cm
+  - left=2cm
+  - right=2cm
+  - bottom=3cm
+colorlinks: true
+mainfont: Minion Pro
+monofont: Inconsolata
+---
+
