@@ -1,0 +1,16 @@
+.*.cmd
+*.mod
+*.mod.*
+*.ko
+.clangd
+*.o.d
+*.bkp
+compile_commands.json
+compile_commands.json.in
+Module.symvers
+modules.order
+nvim-linux64.tar.gz.1
+
+stage/bzImage-amd64
+stage/bzImage-aarch64
+

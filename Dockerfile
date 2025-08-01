@@ -30,6 +30,7 @@ EXPOSE 5900
 EXPOSE 6000
 
 # Setting up a few tools for uefi demos
+RUN apt-get update
 RUN apt-get install -y parted
 RUN apt-get install -y dosfstools
 RUN apt-get install -y gdb
