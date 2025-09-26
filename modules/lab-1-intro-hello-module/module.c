@@ -11,6 +11,9 @@ MODULE_DESCRIPTION(
                                         //
 // This function defines what happens when this module is inserted into the
 // kernel. ie. when you run insmod command.
+
+static void hello_test(void) { pr_err("This is a test!\n"); }
+
 static int __init hello_init(void) {
   // Using a kernel parameter
   pr_info("Hello world (2025), num = %d!\n", num);
@@ -21,6 +24,7 @@ static int __init hello_init(void) {
   // Provoking an oops
   // char *p=NULL;
   // *p=1;
+  hello_test();
   return 0; // Non-zero return means that the module couldn't be loaded.
 }
 
