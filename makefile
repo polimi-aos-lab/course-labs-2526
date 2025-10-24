@@ -3,7 +3,7 @@ E?=full
 TAG?=lkp-$(T)-$(E)-priv
 
 build-container:
-	docker build --platform $(T) . -t $(TAG) --build-arg __ARCH=$(T) --build-arg __ENV=$(E)
+	docker build --platform linux/$(T) . -t $(TAG) --build-arg __ARCH=$(T) --build-arg __ENV=$(E)
 
 build-sys:
 	docker run -ti -v "`pwd`:/repo" --rm $(TAG):latest /bin/bash -c "cd /repo/modules && make build-modules"
