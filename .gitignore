@@ -14,3 +14,6 @@ nvim-linux64.tar.gz.1
 stage/bzImage-amd64
 stage/bzImage-aarch64
 
+boot/uefi/nvram.fd
+boot/uefi/src
+boot/uboot/u-boot.bin

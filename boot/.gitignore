@@ -1,0 +1,6 @@
+uboot/rootfs.ext4.img
+
+uefi/uefi-kernel/bzImage.efi
+
+uefi/uefi-kernel/initrd.img
+
